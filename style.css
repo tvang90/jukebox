@@ -1,0 +1,33 @@
+html { 
+  background: url("img/broad.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  font-family: 'Lemon', cursive;
+  font-size: 64px;
+  text-align: center;
+}
+
+span{
+    font-family: 'Lemon', cursive;
+
+}
+
+#audioplayer {
+  border: 5px solid black;
+  width:50%;
+  margin-left: 25%;
+  padding: 20px;
+  background-color: #636C6F;
+  position: absolute;
+}
+
+.controls{
+  margin: auto;
+  width: 50%;
+}
+

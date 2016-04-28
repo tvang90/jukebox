@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jukebox Hero</title>
+  <link href='https://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<h2>Jukubokkusu</h2>
+
+  <audio id="audio" loop>
+    <source src="music/jazzyjam.mp3" type="audio/mp3" />
+    <source src="music/doowop.mp3" type="audio/mp3" />
+    <source src="music/song2.mp3" type="audio/mp3" />
+  </audio>
+
+  <div id="audioplayer">
+    <span id="display"></span>
+
+    <div class="controls">
+      <button id="previous"><strong>Previous</strong><br>
+        <img src="img/rewind.png">
+      </button>
+      <button id="play"><strong>Play</strong><br>
+        <img src="img/play.png">
+      </button>
+      <button id="pause"><strong>Pause</strong><br>
+        <img src="img/circle.png">
+      </button>
+      <button id="next"><strong>Next</strong><br>
+        <img src="img/forward.png">
+      </button>
+      
+    </div>
+  </div>
+
+</body>
+</html>
